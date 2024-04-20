@@ -1,0 +1,36 @@
+{
+    // Pro informace o možných atributech použijte technologii IntelliSense.
+    // Umístěním ukazatele myši zobrazíte popisy existujících atributů.
+    // Další informace najdete tady: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "preLaunchTask": "compile"
+        },
+        {
+            "type": "java",
+            "name": "Run Continuous",
+            "request": "launch",
+            "mainClass": "continuous.Run",
+            "preLaunchTask": "compile"
+        },
+        {
+            "type": "java",
+            "name": "Run Event Oriented",
+            "request": "launch",
+            "mainClass": "eventoriented.Run",
+            "preLaunchTask": "compile"
+        },
+        {
+            "type": "java",
+            "name": "Run Monte Carlo",
+            "request": "launch",
+            "mainClass": "montecarlo.Run",
+            "preLaunchTask": "compile"
+        }
+    ]
+}
